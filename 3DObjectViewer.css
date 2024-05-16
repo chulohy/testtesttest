@@ -9,6 +9,15 @@ body
 	-moz-user-select:none;
 	user-select:none;
 	}
+
+.center 
+    {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh; /* Adjust as necessary */
+	}
+
 .content
 	{
 	width:100%;
@@ -47,6 +56,7 @@ body
 	}
 .container3
 	{
+	text-align: center;	
 	position:absolute;
 	bottom:0px;
 	left:0px;
